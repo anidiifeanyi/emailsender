@@ -13,3 +13,10 @@ subject = "Dont forget to subscribe"
 body = """
 When you watch a video, please hit subscribe
 """
+
+# instant of email message
+em = EmailMessage()
+em['From'] = email_sender
+em['To'] = email_receiver
+em[' subject'] = subject
+em.set_content(body)
