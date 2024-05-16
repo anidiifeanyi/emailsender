@@ -9,9 +9,9 @@ email_password = password
 email_receiver = ''
 
 # email body
-subject = "Dont forget to subscribe"
+subject = "Add your title"
 body = """
-When you watch a video, please hit subscribe
+Write your messages here
 """
 
 # instant of email message
